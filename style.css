@@ -88,8 +88,8 @@ h3 {
 }
 
 .narrow {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 800px !important;
+    margin: 0 auto !important;
 }
 
 .logo {
@@ -106,6 +106,19 @@ h3 {
     padding: 40px !important;
     border-radius: 20px !important;
     border: 5px solid rgb(48, 45, 42) !important;
+}
+
+.card2 {
+    color: rgb(48, 45, 42) !important;
+    background-color: rgb(246, 245, 239) !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    border-radius: 20px !important;
+    border: 5px solid rgb(48, 45, 42) !important;
+    width: 100%;
+    font-size: 14px;
 }
 
 table {
@@ -182,6 +195,13 @@ p {
     background-color: #B2B4B3;
 }
 
+.footer a {
+    font-family:"Montserrat", sans-serif;
+    font-weight: 300;
+    color: rgb(48, 45, 42) !important;
+    text-decoration: none !important;
+}
+
 #taxrate, #deliverystatus {
     font-family:"Montserrat", sans-serif;
     font-weight: 300;
@@ -196,4 +216,75 @@ p {
     border-radius: 100px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
+    height: 40px;
+}
+
+.btn2 {
+    background-color: rgb(48, 45, 42) !important;
+    color: rgba(237, 235, 223) !important;
+    border-radius: 100px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    height: 40px;
+    width: 100%;
+    border: none !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    border: none !important;
+    border-radius: 100px;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(246, 245, 239);
+}
+
+.justifyalign {
+    text-align: justify !important;
+}
+
+.bluebackground {
+    background-color: rgb(112, 120, 130);
+    border-radius: 20px;
+    padding: 20px !important;
+}
+
+.orderoption {
+    width: 80px;
+}
+
+.verticalalign {
+    display: flex;
+    align-items: center;
+}
+
+.inputstyle2 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(246, 245, 239);
+    color: rgb(48, 45, 42);
+    text-align: center;
+}
+
+.arrow {
+    width: 10px;
+}
+
+.arrowbtn {
+    background-color: rgba(2, 1, 2, 0) !important;
+    border: none !important;
+}
+
+.pquantity {
+    margin: 0px !important;
+    padding-left: 6px;
+}
+
+.modal-content {
+    border-radius: 30px !important;
+    padding: 20px;
 }
