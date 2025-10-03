@@ -1,5 +1,15 @@
-# data types in Python
-from pyscript import display
+#  _    _  ____  __  __ ______     ____  __ ______ _   _ _    _     _____        _____ ______ 
+# | |  | |/ __ \|  \/  |  ____|   / /  \/  |  ____| \ | | |  | |   |  __ \ /\   / ____|  ____|
+# | |__| | |  | | \  / | |__     / /| \  / | |__  |  \| | |  | |   | |__) /  \ | |  __| |__   
+# |  __  | |  | | |\/| |  __|   / / | |\/| |  __| | . ` | |  | |   |  ___/ /\ \| | |_ |  __|  
+# | |  | | |__| | |  | | |____ / /  | |  | | |____| |\  | |__| |   | |  / ____ \ |__| | |____ 
+# |_|  |_|\____/|_|  |_|______/_/   |_|  |_|______|_| \_|\____/    |_| /_/    \_\_____|______|
+
+from pyscript import display, document
+
+#----------------------------------------------------------#
+#                 SHOP MAIN DETAILS + MENU                 #
+#----------------------------------------------------------#
 
 restaurant_name = 'Yum-nilla' # script
 business_hours = '9 : 00 am - 6 : 00 pm' # script
@@ -12,7 +22,7 @@ product_flavor = 'Vanilla' # script
 product_names = ['Ice cream', 'Cake', 'Milkshake', 'Yogurt', 'Pudding'] # list
 menu_prices = 59.0, 70.0, 87.0, 105.0, 187.0 # tuple
 common_allergens = 'Milk, Eggs, Nuts' # script
-tax_rate = 0.20 # floating-point
+tax_rate = 0.6 # floating-point
 has_delivery = True
 
 # Total types: ( 1 ) script ( 2 ) integer ( 3 ) floating-point ( 4 ) list ( 5 ) tuple ( 6 ) boolean
@@ -24,7 +34,7 @@ display(f'Since {year_established}', target='yearestablished')
 
 
 # Table content --- Product names and prices
-display(f'tax rate : {tax_rate} ₱', target='taxrate')
+display(f'tax rate : {tax_rate} %', target='taxrate')
 
 # Ice cream.
 display(f'{product_flavor} {product_names[0]}', target='Ice_cream_product')
